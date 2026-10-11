@@ -1,7 +1,7 @@
 <p align="center"><img src="site/assets/icon.png" width="112" alt="Official ReSkate RE icon"></p>
 <h1 align="center">ReSkate PS5</h1>
 <p align="center"><strong>An experimental ReSkate launcher for a jailbroken PlayStation 5.</strong><br>Wine · vkd3d-proton · RADV · bring your own game</p>
-<p align="center"><a href="https://wwwshelton19-spec.github.io/ReSkate-PS5/">Project website</a> · <a href="https://github.com/wwwshelton19-spec/ReSkate-PS5/releases/tag/v0.1.0-experimental">Experimental release</a> · <a href="docs/INSTALL.md">Installation guide</a> · <a href="docs/STATUS.md">Test results & limitations</a></p>
+<p align="center"><a href="https://xnos666.github.io/ReSkate-PS5/">Project website</a> · <a href="https://github.com/Xnos666/ReSkate-PS5/releases/tag/v0.1.0-experimental">Experimental release</a> · <a href="docs/INSTALL.md">Installation guide</a> · <a href="docs/STATUS.md">Test results & limitations</a></p>
 
 ![Official ReSkate artwork](site/assets/background.jpg)
 
@@ -75,6 +75,6 @@ The release provides a corresponding-source archive for the modified native titl
 
 The linked native title is GPL-3.0-or-later as a whole. Individual components retain their licenses; Wine changes remain LGPL-2.1-or-later, and the new installer is MIT. Official ReSkate artwork is credited to its upstream repository. See [CREDITS.md](docs/CREDITS.md) and the release notices.
 
-Useful contributions include rendering/synchronization profiling, a confirmed fresh installation, and a portable replacement for the development memory guards. Open a [test report](https://github.com/wwwshelton19-spec/ReSkate-PS5/issues/new/choose) with sanitized details. Never upload game files, saves, your prefix, console databases, or unredacted logs.
+Useful contributions include rendering/synchronization profiling, a confirmed fresh installation, and a portable replacement for the development memory guards. Open a [test report](https://github.com/Xnos666/ReSkate-PS5/issues/new/choose) with sanitized details. Never upload game files, saves, your prefix, console databases, or unredacted logs.
 
 Unofficial community project. Not affiliated with or endorsed by Dingo-Shenanigans, Electronic Arts, Full Circle, or Sony Interactive Entertainment. ReSkate, skate., PlayStation, and PS5 names and artwork belong to their respective owners.

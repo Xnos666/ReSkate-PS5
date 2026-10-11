@@ -5,7 +5,7 @@ Updated October 11, 2026. These drafts distinguish development progress from the
 ## X
 
 ReSkate PS5 update: skating + Bluetooth DualSense work in a development build. Smoother now, but still ~30 FPS. The download is an older experimental build; these fixes aren't packaged yet. Progress + limitations:
-https://wwwshelton19-spec.github.io/ReSkate-PS5/
+https://xnos666.github.io/ReSkate-PS5/
 
 ## Reddit
 
@@ -19,6 +19,6 @@ Recurring local-profile refresh stalls fell from about 95 ms to 2.7 ms, and skat
 
 No game files or personal caches are distributed. Fresh-console installation, broad compatibility, and multiplayer remain unverified. Rendering/synchronization diagnostics and work toward portable memory handling would be especially useful.
 
-Website: https://wwwshelton19-spec.github.io/ReSkate-PS5/
+Website: https://xnos666.github.io/ReSkate-PS5/
 
-Repository: https://github.com/wwwshelton19-spec/ReSkate-PS5
+Repository: https://github.com/Xnos666/ReSkate-PS5
