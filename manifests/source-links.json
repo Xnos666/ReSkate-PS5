@@ -1,0 +1,152 @@
+[
+  {
+    "component": "PS5_Mesa",
+    "path": ".gitlab-ci/bin",
+    "target": "../bin/ci",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": ".gitlab-ci/docs",
+    "target": "../docs/ci",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": "bin/ci/pipeline_message.py",
+    "target": "../../.marge/hooks/pipeline_message.py",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": "include/android_stub/sync/sync.h",
+    "target": "../android/sync.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": "src/compiler/isaspec/README.rst",
+    "target": "../../../docs/isaspec.rst",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": "src/gallium/drivers/asahi/.clang-format",
+    "target": "../../../asahi/.clang-format",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": "src/gallium/drivers/freedreno/.clang-format",
+    "target": "../../../freedreno/.clang-format",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": "src/gallium/drivers/panfrost/.clang-format",
+    "target": "../../../panfrost/.clang-format",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": "src/gallium/winsys/asahi/drm/.clang-format",
+    "target": "../../../../asahi/.clang-format",
+    "exists": true
+  },
+  {
+    "component": "PS5_Mesa",
+    "path": "src/gallium/winsys/panfrost/drm/.clang-format",
+    "target": "../../../../panfrost/.clang-format",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/_semaphore.h",
+    "target": "sys/_semaphore.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/aio.h",
+    "target": "sys/aio.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/errno.h",
+    "target": "sys/errno.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/fcntl.h",
+    "target": "sys/fcntl.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/float.h",
+    "target": "machine/float.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/floatingpoint.h",
+    "target": "machine/floatingpoint.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/linker_set.h",
+    "target": "sys/linker_set.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/ncurses.h",
+    "target": "curses.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/poll.h",
+    "target": "sys/poll.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/sched.h",
+    "target": "sys/sched.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/stdarg.h",
+    "target": "machine/stdarg.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/stdatomic.h",
+    "target": "sys/stdatomic.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/stdint.h",
+    "target": "sys/stdint.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/syslog.h",
+    "target": "sys/syslog.h",
+    "exists": true
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "path": "include/freebsd/ucontext.h",
+    "target": "sys/ucontext.h",
+    "exists": true
+  }
+]

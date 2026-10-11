@@ -6,4 +6,4 @@ The installer now checks a separate marker in each existing destination, validat
 
 The review verified the initial overlay's 49 file hashes and reported no other actionable findings in its scope. The corresponding-source archive was still being exported and was excluded from that review. Source provenance/privacy inventory and release checksum checks are separate publishing checks, not a second security review or a guarantee of safety.
 
-No console writes were made during publication validation. Hardware stability and gameplay remain unresolved; see STATUS.md.
+Installer validation used dry-run mode and made no installation writes to the console. The existing prototype's crash logs were separately captured for diagnosis. Hardware stability and gameplay remain unresolved; see STATUS.md.

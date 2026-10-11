@@ -185,6 +185,11 @@
     "sha256": "04a0693a84f19e53d281ca98bbb0c86ca77251ab13769c6168e6684feb9a1436"
   },
   {
+    "path": "title/licenses/wine/LGPL-2.1.txt",
+    "size": 26434,
+    "sha256": "e237fa56668030e928551ddd60f05df5fe957f75eab874bbd017e085ed722e7c"
+  },
+  {
     "path": "title/sce_module/libc.prx",
     "size": 1284674,
     "sha256": "e6ff45d16adf687855cc3b33b0c8a4132b6504360b221e0a34c7e99fb3ba0036"

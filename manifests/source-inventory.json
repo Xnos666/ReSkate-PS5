@@ -1,0 +1,38 @@
+[
+  {
+    "component": "WoWPS5",
+    "revision": "c96a9777dd4c6a0c09bdcc125cfc0a678f730988",
+    "files": 1471,
+    "bytes": 65005052
+  },
+  {
+    "component": "wine",
+    "revision": "455e3509b98a6919fd4ad1def4803e08c41c03b2",
+    "files": 12466,
+    "bytes": 401017020
+  },
+  {
+    "component": "PS5_Vulkan",
+    "revision": "4271e2e309d9a7eea3a893f5b94427bb78e586ed",
+    "files": 2230,
+    "bytes": 93163954
+  },
+  {
+    "component": "PS5_Mesa",
+    "revision": "15a5e9933e14f6493a7853e8cf1df973dd093eeb",
+    "files": 12821,
+    "bytes": 375972352
+  },
+  {
+    "component": "PS5_PayloadSDK",
+    "revision": "adc8dd795ada7bf696cd98748aae463a3970ffbb",
+    "files": 2057,
+    "bytes": 17471468
+  },
+  {
+    "component": "glm",
+    "revision": "1ad55c5016339b83b7eec98c31007e0aee57d2bf",
+    "files": 1141,
+    "bytes": 14589479
+  }
+]

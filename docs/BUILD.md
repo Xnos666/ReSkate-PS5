@@ -6,7 +6,14 @@ The experimental binary was built in a prepared Linux/WSL environment. **A compl
 
 Download `ReSkate-PS5-corresponding-source.tar.gz` from the same release as the binary. It contains the modified title/runtime sources, the full modified Wine source, pinned PS5 Vulkan/Mesa/SDK sources, GLM, TLS source, and original integration/build scripts. Per-file copyrights and licenses are preserved. The accompanying source inventory records base revisions. The repository contains the portable installer, manifests, configuration, selected diagnostic sources, documentation, and website.
 
-The separate `RADV-driver-SDK-source.tar.gz` contains the exact SDK revision used while building the driver. `SHA256SUMS.txt` covers the bundle and both source archives. Duplicate source members are removed and personal development-path strings are replaced by generic example paths in the published archive.
+The separate `RADV-driver-SDK-source.tar.gz` contains the exact SDK revision used while building the driver. `ReSkate-PS5-source-links.tar.gz` preserves the upstream relative header/source aliases that were omitted by the regular-file export. Extract that small archive in the same directory **after** the main source archive. These links remain inside their respective source components. The alias inventory is also in `manifests/source-links.json`.
+
+```sh
+tar -xzf ReSkate-PS5-corresponding-source.tar.gz
+tar -xzf ReSkate-PS5-source-links.tar.gz
+```
+
+`SHA256SUMS.txt` covers the bundle and all three source archives. Duplicate source members are removed and personal development-path strings are replaced by generic example paths in the published archive.
 
 `integration-original/` records the build procedure used for the tested binary. Its `/opt/...` paths identify the original build layout; adapt those roots for a different machine. No deployment command is needed to study or build the code. Avoid running inherited console-deployment scripts without reviewing their targets.
 

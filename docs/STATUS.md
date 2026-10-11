@@ -25,6 +25,10 @@ Status for the first experimental publication. Evidence comes from one local PS5
 - A clean installation using the new portable installer on another console remains unverified.
 - A fresh-machine rebuild of all native dependencies remains unverified.
 
+## Publication checks
+
+The portable installer passed nine automated tests, including the destination-ownership regression found during security review. A full local dry run validated 2,204 selected runtime, game, cache, and overlay files (13.77 GiB); a license text was subsequently added to the overlay. This was not a fresh-console installation test. The website passed desktop/mobile layout, image-loading, and copy-link checks.
+
 ## Default configuration
 
 The title requests a 1280 × 720 window and offline initialization. `VKD3D_CONFIG=` selects default queue behavior; the inherited `single_queue` setting is not forced. `WOWPS5_DEADLINE=0` disables the diagnostic timer. Native shader caching remains enabled; compiler optimization has not been disabled.
