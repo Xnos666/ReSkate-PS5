@@ -1,0 +1,247 @@
+[
+  {
+    "path": "runtime/launch.txt",
+    "size": 650,
+    "sha256": "9640776cf20c60b7df7a4ac5a4a87d11aed60cfa4086c42dd812f709c96d075a"
+  },
+  {
+    "path": "runtime/prefix/drive_c/Games/ReSkate/api-ms-win-core-debug-minidump-l1-1-0.dll",
+    "size": 4311,
+    "sha256": "ab066e16a4137fb204f6582f5a1518619200facd5573668da1c086a601db122a"
+  },
+  {
+    "path": "runtime/prefix/drive_c/windows/system32/kernel32.dll",
+    "size": 2471646,
+    "sha256": "ba3fe21f02170a942a9a743d57f5477946e30b0270c7a836722aceee9b3ed1ab"
+  },
+  {
+    "path": "runtime/prefix/drive_c/windows/system32/sensapi.dll",
+    "size": 134439,
+    "sha256": "5cb2594aca49e3c7a049b6662e68a127d3194c286c138e9e0375580229663d33"
+  },
+  {
+    "path": "runtime/prefix/drive_c/windows/system32/sspicli.dll",
+    "size": 178611,
+    "sha256": "f73f54ba1bcbba65ca4924e5b667d8baa7b2e3cdc695e8fabc3971675d0e7069"
+  },
+  {
+    "path": "runtime/prefix/drive_c/windows/system32/version.dll",
+    "size": 175263,
+    "sha256": "17084182e3f1c7f9a9b27b6c600c4f1b1a864d073083a59c30087596be969c25"
+  },
+  {
+    "path": "runtime/prefix/drive_c/windows/system32/wer.dll",
+    "size": 172641,
+    "sha256": "4b2bbc624d151cdf0edca68fec8b52d75001e2cf2ef5f2f160f60db6a693e42a"
+  },
+  {
+    "path": "runtime/prefix/drive_c/windows/system32/wtsapi32.dll",
+    "size": 269202,
+    "sha256": "bb52b60a0701a980a797beccdebdde2281e4398eb9a748bed1c2f10470a529ea"
+  },
+  {
+    "path": "runtime/wine/lib/wine/x86_64-windows/kernel32.dll",
+    "size": 2471646,
+    "sha256": "ba3fe21f02170a942a9a743d57f5477946e30b0270c7a836722aceee9b3ed1ab"
+  },
+  {
+    "path": "runtime/wine/lib/wine/x86_64-windows/sensapi.dll",
+    "size": 134439,
+    "sha256": "5cb2594aca49e3c7a049b6662e68a127d3194c286c138e9e0375580229663d33"
+  },
+  {
+    "path": "runtime/wine/lib/wine/x86_64-windows/sspicli.dll",
+    "size": 178611,
+    "sha256": "f73f54ba1bcbba65ca4924e5b667d8baa7b2e3cdc695e8fabc3971675d0e7069"
+  },
+  {
+    "path": "runtime/wine/lib/wine/x86_64-windows/version.dll",
+    "size": 175263,
+    "sha256": "17084182e3f1c7f9a9b27b6c600c4f1b1a864d073083a59c30087596be969c25"
+  },
+  {
+    "path": "runtime/wine/lib/wine/x86_64-windows/wer.dll",
+    "size": 172641,
+    "sha256": "4b2bbc624d151cdf0edca68fec8b52d75001e2cf2ef5f2f160f60db6a693e42a"
+  },
+  {
+    "path": "runtime/wine/lib/wine/x86_64-windows/wtsapi32.dll",
+    "size": 269202,
+    "sha256": "bb52b60a0701a980a797beccdebdde2281e4398eb9a748bed1c2f10470a529ea"
+  },
+  {
+    "path": "title/eboot.bin",
+    "size": 33450100,
+    "sha256": "4620145230c0cb5abe9a8aac2ce455e8ab8d700d517c0a6fb540925a86289ad9"
+  },
+  {
+    "path": "title/LEGAL.txt",
+    "size": 503,
+    "sha256": "d153711273129074bc2567b976634876654662b9f2c2dcd059a2bc566d7ba286"
+  },
+  {
+    "path": "title/licenses/components.json",
+    "size": 3494,
+    "sha256": "25c0b07ff213708d75f9cc1ee98e412c4220549bdb43d8b55834b83f746ef5d6"
+  },
+  {
+    "path": "title/licenses/llvm-runtime/LICENSE.TXT",
+    "size": 15141,
+    "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+  },
+  {
+    "path": "title/licenses/platform/dlmalloc-SOURCE.txt",
+    "size": 295,
+    "sha256": "b6ac826c3b163d5513fc646b46514c83a7f2009d3cd2e51453a2c91bb89033af"
+  },
+  {
+    "path": "title/licenses/platform/GPL-3.0.txt",
+    "size": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "title/licenses/platform/musl-regex-COPYRIGHT.txt",
+    "size": 6204,
+    "sha256": "f9bc4423732350eb0b3f7ed7e91d530298476f8fec0c6c427a1c04ade22655af"
+  },
+  {
+    "path": "title/licenses/ps5-vulkan/GPL-3.0.txt",
+    "size": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "title/licenses/radv/licenses/Apache-2.0",
+    "size": 10045,
+    "sha256": "7e4d3fba250d15e9e0afa380d4b611828fa2560cc8fdebe95bcf2f01a487de12"
+  },
+  {
+    "path": "title/licenses/radv/licenses/BSL-1.0",
+    "size": 1649,
+    "sha256": "9b9fea7520a816107fcac2598b7c0155222f16bc430e989706b22f4367f1df7d"
+  },
+  {
+    "path": "title/licenses/radv/licenses/exceptions/Linux-Syscall-Note",
+    "size": 1257,
+    "sha256": "9b4084655174654608fd037e9ddb4feeadfada01cd042e9c17b05aa7105b2b9f"
+  },
+  {
+    "path": "title/licenses/radv/licenses/GPL-1.0-or-later",
+    "size": 13047,
+    "sha256": "8ff76f1528e6e4e9400c0f6b1f2d19d4979aaac3bcc44bb707a55389132825c4"
+  },
+  {
+    "path": "title/licenses/radv/licenses/GPL-2.0-only",
+    "size": 18424,
+    "sha256": "6667ad4063569cd53b13500550d93fcd3dc11bcf82c5514296af013a0b720ba5"
+  },
+  {
+    "path": "title/licenses/radv/licenses/MIT",
+    "size": 1372,
+    "sha256": "323c587d0ccf10e376f8bf9a7f31fb4ca6078105194b42e0b1e0ee2bc9bde71f"
+  },
+  {
+    "path": "title/licenses/radv/licenses/SGI-B-2.0",
+    "size": 1822,
+    "sha256": "686bf035a1fd22076416fd3b90370ac67771e884bf57f55693d51f8ce7c710a7"
+  },
+  {
+    "path": "title/licenses/radv/Mesa-license.rst",
+    "size": 1816,
+    "sha256": "0d1a0472ecc81830e75c20d59b0ea02841e3db21255e0ebad97ab682c54d6615"
+  },
+  {
+    "path": "title/licenses/README.txt",
+    "size": 418,
+    "sha256": "ccdd2f794a54907e348e9fa09c06638f8bf7bf82c4bbf758e116df80537c403f"
+  },
+  {
+    "path": "title/licenses/title/imgui-LICENSE.txt",
+    "size": 1083,
+    "sha256": "c3c47e135626f2eefa704f3028c16b7afac8c00388cb2417028389084098d91a"
+  },
+  {
+    "path": "title/licenses/title/ktx-LICENSE.md",
+    "size": 11129,
+    "sha256": "d4d2d5113cee80e607b8e75ff3c121e511a435ec27ca358d2a3d16411209d7db"
+  },
+  {
+    "path": "title/licenses/title/ktx-NOTICE.md",
+    "size": 10,
+    "sha256": "4673a3aba01813b595de187a7a6e9e63a3491d55821606fecd9f13a10c188a1d"
+  },
+  {
+    "path": "title/licenses/title/LICENSE.md",
+    "size": 1081,
+    "sha256": "d8db1712b2a1383b27cebeab2ddb8840a6e31ea820b0d56552a0f1c65f920983"
+  },
+  {
+    "path": "title/licenses/title/tinygltf-LICENSE",
+    "size": 1112,
+    "sha256": "2ae461f8c8b78ed77c14e9c3b7e353ba277e44cb3dbfb5a6d380f76f2ae081a2"
+  },
+  {
+    "path": "title/licenses/title/volk-LICENSE.md",
+    "size": 1066,
+    "sha256": "04a0693a84f19e53d281ca98bbb0c86ca77251ab13769c6168e6684feb9a1436"
+  },
+  {
+    "path": "title/sce_module/libc.prx",
+    "size": 1284674,
+    "sha256": "e6ff45d16adf687855cc3b33b0c8a4132b6504360b221e0a34c7e99fb3ba0036"
+  },
+  {
+    "path": "title/sce_sys/icon0.png",
+    "size": 17760,
+    "sha256": "91ef74a3bf8c5d8f8cd9c4323d0018da7ba2df8bd73af59ef698b7e8e69a5b0e"
+  },
+  {
+    "path": "title/sce_sys/param.json",
+    "size": 843,
+    "sha256": "845ed7c1379368c250a44fd431c04c8367fe2d36a60ba918247a93fb1c0ae8e1"
+  },
+  {
+    "path": "title/sce_sys/pic0.dds",
+    "size": 8294548,
+    "sha256": "a7540debe9745a4c19b9d06534b433d3b6c81d82873ccb14a2e07b3091060df4"
+  },
+  {
+    "path": "title/sce_sys/pic1.dds",
+    "size": 8294548,
+    "sha256": "ff11502e237753a1fea564291459fd3b5c32dd8e10c27c81cba561de77bd1f2b"
+  },
+  {
+    "path": "title/shaders/glsl/base/textoverlay.frag.spv",
+    "size": 836,
+    "sha256": "fc340cfb1df4617900e400772e6ecacd35f0ca41355cf46dbf95937981e3bfbc"
+  },
+  {
+    "path": "title/shaders/glsl/base/textoverlay.vert.spv",
+    "size": 764,
+    "sha256": "eef3540d67a5e87bf2f3b1c389734a5c49713f27c1cd1b1059db72a30547d8d7"
+  },
+  {
+    "path": "title/shaders/glsl/base/uioverlay.frag.spv",
+    "size": 664,
+    "sha256": "3a20529cf2c4dea9a529c38d09d8f56cb0201e8eb2bce0138b01b337aa0b2117"
+  },
+  {
+    "path": "title/shaders/glsl/base/uioverlay.vert.spv",
+    "size": 1252,
+    "sha256": "466a0e11e535fa184128020c066647604e860388b1d038372c9fb6d9b8ddd58e"
+  },
+  {
+    "path": "title/shaders/glsl/wowps5probe/model.frag.spv",
+    "size": 3276,
+    "sha256": "e9b4133be68cf152daf9f3f81f48cb67147579f7aba2c71dfd451a68b5ce48b8"
+  },
+  {
+    "path": "title/shaders/glsl/wowps5probe/model.vert.spv",
+    "size": 2296,
+    "sha256": "8a83f70cae20e47d2e9372bb49db25ad0d4e88972f0714a2c05b996c428f5cd8"
+  },
+  {
+    "path": "title/shaders/glsl/wowps5probe/storage.comp.spv",
+    "size": 760,
+    "sha256": "adadf9ab49a839fab948746aaca2f51d280cb37a9d4a8d597f5e21ee68298f8b"
+  }
+]

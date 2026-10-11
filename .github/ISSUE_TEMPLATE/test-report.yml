@@ -1,0 +1,30 @@
+name: Test report
+description: Report an experimental launch result without private logs or game files.
+body:
+  - type: markdown
+    attributes:
+      value: "Gameplay is unverified. Do not attach game files, prefixes, databases, or unredacted logs."
+  - type: input
+    id: version
+    attributes:
+      label: Release and game build
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Firmware, enabler, homebrew manager, PS5 model
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Observed result and elapsed time
+      description: Distinguish a stuck count, game exit, and whole-console reboot. Include the shader count if visible.
+    validations:
+      required: true
+  - type: textarea
+    id: excerpt
+    attributes:
+      label: Short sanitized diagnostic excerpt
+      description: Remove addresses, local usernames, account IDs, and tokens first.

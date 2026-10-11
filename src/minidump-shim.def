@@ -1,0 +1,3 @@
+LIBRARY api-ms-win-core-debug-minidump-l1-1-0.dll
+EXPORTS
+    MiniDumpWriteDump=dbghelp.MiniDumpWriteDump

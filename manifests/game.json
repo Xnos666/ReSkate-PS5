@@ -1,0 +1,737 @@
+[
+  {
+    "path": "Data/Win32/buildkititems.toc",
+    "size": 2130110,
+    "sha256": "755c970ab48bbec6b499f2c5963b3fc797f51fae86d5dff5e910741e103ed713"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_01.cas",
+    "size": 12288,
+    "sha256": "f840da7cf8827b99062becae476de0dcc6e4e8a1bb2f2c9a4c950edb3e6f9ead"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_03.cas",
+    "size": 872448,
+    "sha256": "bf8aa82baaec8db6cbda38e32b5fd617b488bdaca798cf34dd82ec72ec67e37c"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_06.cas",
+    "size": 3125248,
+    "sha256": "1e4fb17d9aef4d073250824977e1222f66193033d6aa9722f412d6b0b912ba56"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_07.cas",
+    "size": 155648,
+    "sha256": "7a700f2c16829e9f25fce8d4f758292c822949c16532c117880d264730560368"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_12.cas",
+    "size": 114688,
+    "sha256": "c53fab6f2728be2d296da8713d7a082a3a4334051ea83653484a5359e469ce1c"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_14.cas",
+    "size": 20480,
+    "sha256": "d0dc410eb7bcbc20fde709291e4680a68fed846285ffeaea29c5783505b47030"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_15.cas",
+    "size": 708608,
+    "sha256": "33ab1f9db387fba66075a4438757b27fdde07b762e2f87aa71aca558df8b0e73"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_16.cas",
+    "size": 3424256,
+    "sha256": "b6b11ec5cda6a9fccb2aedc023b69ad46d126379b343f92a45edc94087deccc3"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_17.cas",
+    "size": 200704,
+    "sha256": "9f53f0ed7881c01149cebaacf9c38b671c1328d725beda48e9a0ea0a9da5ecab"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_18.cas",
+    "size": 122880,
+    "sha256": "133156529fd5e093d48add3dc09ef498b399b10de49f6465bdcbf90e1528252f"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_19.cas",
+    "size": 24576,
+    "sha256": "99e00944324aea390422efc357b0c5130b10241dc82bd6248201cbc6ce24e0f7"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_20.cas",
+    "size": 913408,
+    "sha256": "8f8b6c6be860b0acda72511d82d344d2ef078dbe85ce9e66b994fcd1b0c27704"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_21.cas",
+    "size": 303104,
+    "sha256": "b87a22ef182a4f66dc6c80358c917bfc78270c0f4990016f15d42e249d58de11"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_22.cas",
+    "size": 17301504,
+    "sha256": "a8fbf6c3a292faebd18598a05ae606feff7a4da0a7ea9126d91d34c0f24020e9"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_23.cas",
+    "size": 40980480,
+    "sha256": "21a07b2c75f71289d5e5614f62ca65fb38afe5c27086f12abe82646e1918f670"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_24.cas",
+    "size": 203739136,
+    "sha256": "390d3605dbe42838b10bfd306e549d895628a6e9a91451dd38a8ea66c2e318b8"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_25.cas",
+    "size": 982417408,
+    "sha256": "bf9f4881b5b4131ef4996e80bf8a261e33c3d8710071fb0de7669d7af50490e9"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_26.cas",
+    "size": 1073741824,
+    "sha256": "5fe4176da8052e5209172f46f4fcd32b5313627e19fb4c4b498090c3434f9c80"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/cas_27.cas",
+    "size": 827777024,
+    "sha256": "5f8eb65adc3a7a350216c79aabc603820984b73f8b506d84ea3b5c9f3c183a92"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/de/cas_01.cas",
+    "size": 575954944,
+    "sha256": "a0cf4cc9dc00b087264d903d4e50e66616eb8bab3b3fd95aa5002bcbf0eae54f"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/en/cas_01.cas",
+    "size": 595202048,
+    "sha256": "3ee167310256f481e4cabe2b472491ef51d579c27ae052165b16c3603037ee71"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/defaultinstallpackage/fr/cas_01.cas",
+    "size": 594911232,
+    "sha256": "5c1f4a347d2a28c7e9326194224491839c5be93e5b1682ac2a5ebb6f6120b5c6"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/br/cas_01.cas",
+    "size": 405504,
+    "sha256": "f165712de427384afa8f2dab8f57b5034bbc9e94413036ea9796428f27eb3441"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+    "size": 942080,
+    "sha256": "6d11135bc4b0e57796ffd4247be865725451933d742e857c4181d96d8f5edb26"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_05.cas",
+    "size": 3792896,
+    "sha256": "8721748a06dd961e58f895795161618d9e6c7030bce6f3a85f38b0b675efda44"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_07.cas",
+    "size": 311296,
+    "sha256": "dcf021540cd8dc6c0322f7e66ad5d13634e6721c1f4a915aa77c5e96bf19d40d"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_08.cas",
+    "size": 282624,
+    "sha256": "f66ac75e68ada6e4691eff63ae1aed2984972c792c1498f21423f42407baa346"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_09.cas",
+    "size": 172032,
+    "sha256": "e237970b8e3a372947507f57c4be92ea6484f29dc94077d6e79b7433049d7699"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_11.cas",
+    "size": 6336512,
+    "sha256": "2a80c996276029a256a7277b35dd881a09e0ab31e1395df0d6fac400a5ee040a"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_12.cas",
+    "size": 983040,
+    "sha256": "f2cf75bb860820aa3c9fca605aedd46a7d443105ddfe5cccb0ca0c2132792ab9"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_13.cas",
+    "size": 5685248,
+    "sha256": "5e562b8d2c0bff97ce0b396ddcbb62a259ead740a9bd2a683f694023d6e06faa"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_14.cas",
+    "size": 4956160,
+    "sha256": "de24ce76e99fead18f3289cec864e93fc0d403c6e782b50888e02507c54adb90"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_15.cas",
+    "size": 1175552,
+    "sha256": "f4801963b0ded45050d1b988ba10b93fd2ec93709c935bbf6aa957d036ee6053"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_16.cas",
+    "size": 53952512,
+    "sha256": "c9d75052522c9f93204817eb3a7214301feed8afa4d8b53bb0da76ccf45faae3"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_17.cas",
+    "size": 5267456,
+    "sha256": "ffedbc65eb89a85c8652404c8a2f5c7f80c6b8511a413de9b057d20dba13c7a2"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_18.cas",
+    "size": 40960,
+    "sha256": "a60b8cbc9660af0b01e5c200089d2219fae4e6d01f5ad1c6342530cebb498395"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_21.cas",
+    "size": 3383296,
+    "sha256": "d5733d15cb8c320f2e758935b9a2882c1fe9c7bcc7f09cb17ae3aed77eef5c13"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_24.cas",
+    "size": 4096,
+    "sha256": "e6d1ba373d41080e42ece919c6b5852a35e0e3ed63a2698afd6d39850fd8eb06"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_25.cas",
+    "size": 12288,
+    "sha256": "d94fa573d2e5a354da2f1fc51a3868cfca3c625bc1f38c55dcf0e606935b622b"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_26.cas",
+    "size": 20480,
+    "sha256": "b573fc6238e067cbbd44708386708bf2cba3066941f4bd14cc4f0a7f4ec9012f"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_27.cas",
+    "size": 20480,
+    "sha256": "84769337f5c15df99c65376d01366385062b72d1bc324dd30c5bf902dfd78914"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_28.cas",
+    "size": 20238336,
+    "sha256": "52ce7486460a0ed1eab791cdeb829cb806467696f4a61d53c24126cd84c33b97"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_29.cas",
+    "size": 26705920,
+    "sha256": "91198b004653e55b5f2b438517eb8db27b449165b263e6a3755c50db8a7e8c18"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_30.cas",
+    "size": 86601728,
+    "sha256": "8d33fc0403a016e8f7d1fb582cb8a1f81b75bc78de882b30bf3560775820ffed"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_31.cas",
+    "size": 28971008,
+    "sha256": "66c4daa51e3aeb5922b7b7b1860de6fa9aa69745322f4453181dae127062315a"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_32.cas",
+    "size": 1835008,
+    "sha256": "0778cdec7d11e4c3796c2aa1212d83b8829c92ffc73b4ebbd24da390eb4c2224"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_33.cas",
+    "size": 1871872,
+    "sha256": "24a4e8c9567a2e422dc8be49806d84cca6dbc7a7f22cb4ba1d29e9f5b7867fb7"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_34.cas",
+    "size": 3756032,
+    "sha256": "3edd785fae348387ded7fec59f50471c775d7177c10dc5d9d18f9521fce5ce8b"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_35.cas",
+    "size": 10575872,
+    "sha256": "117ce4f09f1153206ca15c277ff02d1d68a7756c51987d6c8311f4368dabcce4"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_36.cas",
+    "size": 59944960,
+    "sha256": "aa15e845b0ec17194fbe7cc363540dcadc8703e9e7acfe9546635bbde4709181"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_37.cas",
+    "size": 53604352,
+    "sha256": "d11b7faee3f9e213e3b3538e329f98a52af24f00478589baa2a75712057e52ba"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_38.cas",
+    "size": 26476544,
+    "sha256": "eb208450ef725c657f2e78973b339207f8bf50ffa8b09feded7cbb1e37d64a3f"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_39.cas",
+    "size": 6266880,
+    "sha256": "1064cee0f2e65e7c460b3baeea7c2a661ebafe2e6b8198966536a68215e57edb"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_40.cas",
+    "size": 22179840,
+    "sha256": "f89a37157e70dad87c83f2c26cc6e5f3e6d152374e82f5d1bf72ca83cd875c57"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_41.cas",
+    "size": 187600896,
+    "sha256": "99689cb990b773652fdb232ed651511a051cc65a1a068ae99a8f0c82ed4f61c1"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_42.cas",
+    "size": 249446400,
+    "sha256": "2a73689f650eb8b5713605345c72f72a3891d3232b90bba4e49658bf748c13f5"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_43.cas",
+    "size": 700387328,
+    "sha256": "261be8ae6a0a86ca1162c00f974a33ca0c543fc3349c2b0a82aeb84e504e3db1"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_44.cas",
+    "size": 709586944,
+    "sha256": "1f39a745b72e5ed608e665c0f48e821e47f5d1d87c5bba12e4e15a938ebd3cdb"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_45.cas",
+    "size": 1059172352,
+    "sha256": "5e1d8f1b60585088835c5850700d7632ad8db880348c62f6ad08804acdd2c1d8"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_46.cas",
+    "size": 1073397760,
+    "sha256": "8685b2c689c663b027a0612be83b3bd3a38b6a6d81dadc41a37f18bb3fb971eb"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_47.cas",
+    "size": 1073201152,
+    "sha256": "fccb35f86b79baa3eb411cc8d763992f671a98b816f5a7931b8354249e9b3d6c"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_48.cas",
+    "size": 1073733632,
+    "sha256": "85e7a0aefe763401be6d2c30965bb130dc4f3a15b0fda3055a0bb0a13cc8df29"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cas_49.cas",
+    "size": 1065676800,
+    "sha256": "de10d35b17ce742a289d5f37d347e0d59cfe3daaa5675b868b515a4686a0b216"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/cn/cas_01.cas",
+    "size": 368640,
+    "sha256": "255815247cd55c90199d1aff318055d9f4b35fc36aafead6e23db4c0c0207d86"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/de/cas_02.cas",
+    "size": 304254976,
+    "sha256": "206d34d0bfb80348987d4612618abde588baae728b9f9c893e87c5a000b418a6"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/en/cas_02.cas",
+    "size": 320937984,
+    "sha256": "8f3b94d3069f345b73e7bd272cc7cb24e032f4a6377afbacdc46777da2418ed1"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/es/cas_01.cas",
+    "size": 417792,
+    "sha256": "cc671c3dc3c692878e528c3e552381cf3bda48b7444c39694a222a6319960a87"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/fr/cas_02.cas",
+    "size": 310644736,
+    "sha256": "bff28893bb4d38367119687a719da257cd813a92264a2e7f21fe7593dd717784"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/it/cas_01.cas",
+    "size": 413696,
+    "sha256": "166aa6cb129898e3883c94ade523e11f094c65d1753fb83d5f14468fb7a57b7f"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/ja/cas_01.cas",
+    "size": 376832,
+    "sha256": "28d42d4792e825356d9325efa18356453db60df1308ccdf2bc97eec9ef81fa07"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/ko/cas_01.cas",
+    "size": 389120,
+    "sha256": "f6d8a1e79242aa063622a52b3562056ae63c0978405610a81ed0fcae942ebd05"
+  },
+  {
+    "path": "Data/Win32/configurations/layout/initialinstallpackage/tw/cas_01.cas",
+    "size": 368640,
+    "sha256": "5cd999e6a99d8ec74c806c4ed7f206401f6b0524b9d91ba72a870a73dc0ae45a"
+  },
+  {
+    "path": "Data/Win32/customization.toc",
+    "size": 809386,
+    "sha256": "f1c542cebc9da4f167b672b1b1a66137d49ad91a8ef230ca3c71b2ba8f890247"
+  },
+  {
+    "path": "Data/Win32/globals.toc",
+    "size": 260909,
+    "sha256": "b878bc70fa930e198a56613f62506b6f334d636c7037d37045fc65e2f97bd8ef"
+  },
+  {
+    "path": "Data/Win32/items.toc",
+    "size": 2369188,
+    "sha256": "feb09973258c1af4326b3ec41373e0ffe38fa0b70b883172662a2035d6e5978c"
+  },
+  {
+    "path": "Data/Win32/levels/game/bam_levelroot/bam_levelroot.toc",
+    "size": 6928494,
+    "sha256": "58f52e9f0ba1bb3e3243ea5ddbeca2a8a24f5bc5d10521b68a30487e182c3eb6"
+  },
+  {
+    "path": "Data/Win32/levels/game/dingolevel_ftue_island/dingolevel_ftue_island.toc",
+    "size": 1700135,
+    "sha256": "24227e843364db7682cd7f3ff9ba4823e8fb03daf11a57d34f7898a5acf49085"
+  },
+  {
+    "path": "Data/Win32/levels/game/dingolevel_isle_of_grom/dingolevel_isle_of_grom.toc",
+    "size": 2097814,
+    "sha256": "818cde69c6eaba67530d3fcdd5458cff8c58d887756912d995d40a88dd735afb"
+  },
+  {
+    "path": "Data/Win32/levels/game/dingolevel_mpr/dingolevel_mpr.toc",
+    "size": 1874758,
+    "sha256": "554246c5f964f0945e5d662959820305071920f108fbfbf217a50237aa132366"
+  },
+  {
+    "path": "Data/Win32/levels/game/dingolevel_root/dingolevel_root.toc",
+    "size": 514583,
+    "sha256": "eac6401c6228701bff748a43ac44e4f3a2746684282f68cc637dec4ed85d0a19"
+  },
+  {
+    "path": "Data/Win32/levels/game/dingolevel_sdm/dingolevel_sdm_int_001/dingolevel_sdm_int_001.toc",
+    "size": 1609930,
+    "sha256": "70770daffb9702870b07d96face5a061cfcb33824a1551dfb3e5bedeed059b1c"
+  },
+  {
+    "path": "Data/Win32/levels/game/dingolevel_sdm/dingolevel_sdm_int_002/dingolevel_sdm_int_002.toc",
+    "size": 1601225,
+    "sha256": "ee20ae829f0f7f0a68b71401460420b66b56734e8c3339b9b539caa5682bf2dd"
+  },
+  {
+    "path": "Data/Win32/levels/game/dingolevel_splash/dingolevel_splash.toc",
+    "size": 233342,
+    "sha256": "787936fd462021e602ed9ac2f3928774f2f331c7d9e58df2db816ae06b7c6b1d"
+  },
+  {
+    "path": "Data/Win32/loc/br.toc",
+    "size": 700,
+    "sha256": "d8a27a0a908a2e23175b2e1cadaebc6bb05dab1081597035feb37b2b5e5cb4b0"
+  },
+  {
+    "path": "Data/Win32/loc/cn.toc",
+    "size": 700,
+    "sha256": "6864592c7fd5b26c0f9b7c01fb2cda4f4343fca2f45422ebc2d57a6c43773d92"
+  },
+  {
+    "path": "Data/Win32/loc/de.toc",
+    "size": 134860,
+    "sha256": "84b7c4235070e8b769178202831b8461278a541804ce2b2ee48234de48242a50"
+  },
+  {
+    "path": "Data/Win32/loc/en.toc",
+    "size": 136860,
+    "sha256": "80c933da0dd0683751b3f3b357e397b0fc6fa53457a9bcb1896abc39d8323ca5"
+  },
+  {
+    "path": "Data/Win32/loc/es.toc",
+    "size": 700,
+    "sha256": "0b6e6c83d8f930140b0274798d78878ce98fd37eef0baa953d3a64475021c73f"
+  },
+  {
+    "path": "Data/Win32/loc/fr.toc",
+    "size": 134860,
+    "sha256": "40b7d0cbb3fe1516758751694f189aa4aded572717545fe99d86e1d70c41f55f"
+  },
+  {
+    "path": "Data/Win32/loc/it.toc",
+    "size": 700,
+    "sha256": "630f21414ac6cbd40b891c1c40b4048871b52583dbbe43aceed07f2b5d21bd2d"
+  },
+  {
+    "path": "Data/Win32/loc/ja.toc",
+    "size": 700,
+    "sha256": "5e1af4dee5f5a50f8d3994ebcdaba77292e064420a517e11d5db0d731d1e9a5b"
+  },
+  {
+    "path": "Data/Win32/loc/ko.toc",
+    "size": 700,
+    "sha256": "e124b69c8fef4a22d1351adb3d8cf04e234f9d6fb5c9a953af3ad21eb9ac507d"
+  },
+  {
+    "path": "Data/Win32/loc/tw.toc",
+    "size": 700,
+    "sha256": "89680c2c53c9d039538c0246053fe3529aade40d194dfddb81740f0e3f95474d"
+  },
+  {
+    "path": "Data/Win32/ui.toc",
+    "size": 3467,
+    "sha256": "05892337cb93c3f198578d5993bfb4eb228933b559da1aed5051547203257345"
+  },
+  {
+    "path": "Data/chunkmanifest",
+    "size": 1791,
+    "sha256": "337aca3fa9678445182984b6e0be951ab05d387f0c529ecdb97af8d94a14bfa6"
+  },
+  {
+    "path": "Data/initfs_Win32",
+    "size": 743439,
+    "sha256": "b73e95d63933f2e75fca464bc91c00d99c53e23fb392113d868b8379f975eae4"
+  },
+  {
+    "path": "Data/layout.toc",
+    "size": 14663,
+    "sha256": "ed93d8144f0117a6ba49f4c12a5cdebc0a83b5b924ef42b8ab08735e317e95bf"
+  },
+  {
+    "path": "EAAntiCheat.GameServiceLauncher.dll",
+    "size": 37198072,
+    "sha256": "e93225afdb6d5d42ea7d2951ab868c59a7e62230589586e60f213d554b18399b"
+  },
+  {
+    "path": "EAAntiCheat.GameServiceLauncher.exe",
+    "size": 15814904,
+    "sha256": "952d21c8a1cb8f253692c636d87d1824d9f96683851cadcc104508cdde3b6dee"
+  },
+  {
+    "path": "EAAntiCheat.Splash.png",
+    "size": 461959,
+    "sha256": "c12cd07780228c42501f1545d22a02214f6b1f4a7709f7d73f68f2be00b68409"
+  },
+  {
+    "path": "EAAntiCheat.cfg",
+    "size": 14392,
+    "sha256": "320b2507aef04e25d9bd6c535c0390485f58b8109d488984c62b1ac835b0efe6"
+  },
+  {
+    "path": "Engine.Render.Core2.PlatformPcDx12.dll",
+    "size": 1820032,
+    "sha256": "6a952c88bf0b8d374448eb83517cac89ef83ac5725b8b9768ea1f820b8dbbe78"
+  },
+  {
+    "path": "GFSDK_Aftermath_Lib.x64.dll",
+    "size": 5432704,
+    "sha256": "337e1424366b4b71b549a0862a1d46c494e39b95926fcf29395b78bc9a6a11b6"
+  },
+  {
+    "path": "LICENSE.txt",
+    "size": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "ReSkate.dll",
+    "size": 13023232,
+    "sha256": "ca9c103f85167ac6957e15ed45b999f59afc387d2722277114047f8e04fe6aaa"
+  },
+  {
+    "path": "Runtime_Win64_retail.BuildSettings",
+    "size": 640,
+    "sha256": "2156237843818d60ee3dd53671a1000af581de626f16a17b7ed4b92bf42f4673"
+  },
+  {
+    "path": "Skate.exe",
+    "size": 144567168,
+    "sha256": "fbce74d5e28ef525dbba2cb4adbebc13405bdbd88f31bc940bca45e4ae88b8f9"
+  },
+  {
+    "path": "amd_ags_x64.dll",
+    "size": 178560,
+    "sha256": "063cce29b76435b203c5199698cb45faa8ca12d08ece2041031bad2b2134acfd"
+  },
+  {
+    "path": "d3d10warp.dll",
+    "size": 8501120,
+    "sha256": "e71ba656f11ae34e8a4ce42e8135727bc78299bf3ebf84644ab6681d2ea45b68"
+  },
+  {
+    "path": "dstorage.dll",
+    "size": 207232,
+    "sha256": "66fed7e6d9520df7b7a2ab355fa7b5fed9f3d09dd633b5ae8b9d3bad05e8efbb"
+  },
+  {
+    "path": "dstoragecore.dll",
+    "size": 1483136,
+    "sha256": "f5ffa0f130f570cbec5dee33c999b3e8cd13abcf731964b8b77a1e6edbdb9c20"
+  },
+  {
+    "path": "dxcompiler.dll",
+    "size": 21266304,
+    "sha256": "450f212751b9eaae8d504f429f7d4877b33a181f5e1dc85c9e857183d7486c5f"
+  },
+  {
+    "path": "dxil.dll",
+    "size": 1503616,
+    "sha256": "5fd9dab74fe72b446f4584e53de1acd5a0c38cf353c9f09c42eaa8e26577b44a"
+  },
+  {
+    "path": "installScript.vdf",
+    "size": 499,
+    "sha256": "5e636bb3b5798112a6c9721b16a1211b517270c98bd358f30182db0dca238ad9"
+  },
+  {
+    "path": "libxell.dll",
+    "size": 410496,
+    "sha256": "07051c869402911d72bd89264e66a058258d6a000f947280cebcc7be0755c492"
+  },
+  {
+    "path": "libxess.dll",
+    "size": 77794688,
+    "sha256": "1bd118c1f1b16589da1bed09331807462473ca2cb14c90747e8f0708ad6378a0"
+  },
+  {
+    "path": "libxess_fg.dll",
+    "size": 22954368,
+    "sha256": "7824d8e9845c72a3f4d7a0bc631e8f61af891eb597d1a53683692e29774aced1"
+  },
+  {
+    "path": "licenses/Montserrat-LICENSE.txt",
+    "size": 4492,
+    "sha256": "41cbef8d8a37b9e58a3c613a8958014bfc58801569c40211dfb251f600c6d718"
+  },
+  {
+    "path": "licenses/PermanentMarker-LICENSE.txt",
+    "size": 11560,
+    "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+  },
+  {
+    "path": "licenses/bcdec-LICENSE.txt",
+    "size": 2616,
+    "sha256": "afb4ae2703a7b70af6fd59b0a754820e61a6e9cfaf1f20da824ae643df9741c6"
+  },
+  {
+    "path": "licenses/detours-LICENSE.txt",
+    "size": 1099,
+    "sha256": "b301808b732cfaa60df2b4b422d78cd97d2a15058b207e7e33f0535ba5170dd6"
+  },
+  {
+    "path": "licenses/imgui-LICENSE.txt",
+    "size": 1083,
+    "sha256": "c80c5789748d955c4a650562baa0d750494e2c7128c2ca66aaebe2e3c4e198bf"
+  },
+  {
+    "path": "licenses/lz4-LICENSE.txt",
+    "size": 1335,
+    "sha256": "862c882ee58eaffdbefb4e789aaec2a5ed0310315be989c4404c77827ea7fe96"
+  },
+  {
+    "path": "licenses/miniz-LICENSE.txt",
+    "size": 1184,
+    "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3"
+  },
+  {
+    "path": "licenses/rapidjson-LICENSE.txt",
+    "size": 5152,
+    "sha256": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32"
+  },
+  {
+    "path": "licenses/spdlog-LICENSE.txt",
+    "size": 1323,
+    "sha256": "d678c20826e1392578508e1c78649a1e3c31bda05ef4388d967dbd654461b140"
+  },
+  {
+    "path": "licenses/sqlite-LICENSE.txt",
+    "size": 391,
+    "sha256": "3e7ce5939acc474b82bf5a49a4d5aee3ba363a0f2fc6ea081e1e90eb816f6618"
+  },
+  {
+    "path": "licenses/steam_networking-LICENSE.txt",
+    "size": 1488,
+    "sha256": "6fedd796d51d7f996e0b3dc7c1c9f6a67603bec7a2cfb9f418e0c6607a1ca647"
+  },
+  {
+    "path": "licenses/zstd-LICENSE.txt",
+    "size": 1579,
+    "sha256": "d3baadc2e1dd7a7e0b483633e6b39743c16a16f28d696baff507fcd451f3d4ad"
+  },
+  {
+    "path": "nvngx_dlss.dll",
+    "size": 58830448,
+    "sha256": "2173e05733fde21c7ae77c7573d1d5b60d651e659f71708807a680afe2829e4d"
+  },
+  {
+    "path": "nvngx_dlssd.dll",
+    "size": 28593776,
+    "sha256": "fddc24c5d343507f19a0dbd94be267418f95b5910d7615a80213ec041e069663"
+  },
+  {
+    "path": "nvngx_dlssg.dll",
+    "size": 7499376,
+    "sha256": "17e00fc66d32f348fa16d387d635ac1b994aa7317b3e6d968867d1ee77af3564"
+  },
+  {
+    "path": "oo2core_9_win64.dll",
+    "size": 639872,
+    "sha256": "16429bceef0aeae6e0d09a3bfab47075fcb6ce2e896c54cf0b6d1ae073be121e"
+  },
+  {
+    "path": "oo2ext_9_win64.dll",
+    "size": 830336,
+    "sha256": "c8d7d176362b1bbf0fcae4d81d68f308f8236843399955341237fa4665ae0876"
+  },
+  {
+    "path": "preloader_l.dll",
+    "size": 27384,
+    "sha256": "c5df96c54b209fef448e6736d440aa3a951c57d50fa2d3c9e31d241e2f6c6675"
+  },
+  {
+    "path": "sl.common.dll",
+    "size": 801408,
+    "sha256": "9d39bf058d0dc64677fd4fab28c02b0564e16764bfdbe775d8dc5b759489cbb2"
+  },
+  {
+    "path": "sl.dlss.dll",
+    "size": 419968,
+    "sha256": "7779f3c653535808b6f98307de8b067ca38f1dba16e3c7362b13dcd7d4e7dabe"
+  },
+  {
+    "path": "sl.dlss_d.dll",
+    "size": 435328,
+    "sha256": "c8b0aacc6150bb53bad229d5ea0cf565bc8c4fa3be616bd6636afd9ae01416d3"
+  },
+  {
+    "path": "sl.dlss_g.dll",
+    "size": 578176,
+    "sha256": "dae3f24a690f3dee3fbd89bdde47fbeb6bf480cee376ecfd0242a50e0bb6e6c6"
+  },
+  {
+    "path": "sl.interposer.dll",
+    "size": 647808,
+    "sha256": "98ac2097902686441d6cbd1182fcf5cb15e9e7fa0744bfdf176ec728a4a49f1a"
+  },
+  {
+    "path": "sl.nis.dll",
+    "size": 1153152,
+    "sha256": "a3217cc877f7aa8e54d29c3cedc975c1397511af5c017c1e6057187bb9332b2a"
+  },
+  {
+    "path": "sl.pcl.dll",
+    "size": 359552,
+    "sha256": "4a7bb40f1328cff599de932d5fc73cfd58bd32f3e29f7c19fa464ab3e2aaa440"
+  },
+  {
+    "path": "sl.reflex.dll",
+    "size": 381056,
+    "sha256": "cfbaed0b1c27d0ba415f67e2aeca32607adf2b83be084ee8ad49f7e34c89010c"
+  },
+  {
+    "path": "steam.txt",
+    "size": 11,
+    "sha256": "140cbb6d37ea0a516000e9cc5b549f34bb3137464051279c56c0c3b644737db5"
+  },
+  {
+    "path": "steam_api64.dll",
+    "size": 300928,
+    "sha256": "88b55dc33bfe9d8f998b72bf7074ebe0d21318a0b6dfdcca3530cb1e0c102a39"
+  },
+  {
+    "path": "x64/D3D12Core.dll",
+    "size": 4821888,
+    "sha256": "66aafcf5b93cbe8a6b3014fd3dbfd7fa1709876751412ee83f0e97c685ea3660"
+  }
+]

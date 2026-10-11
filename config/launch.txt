@@ -1,0 +1,26 @@
+# Normal home-screen launches have no forced timeout.
+RESKATE_PS5_BOOTSTRAP=1
+WOWPS5_DEADLINE=0
+WINEDLLOVERRIDES=d3d12,d3d12core,dxgi,d3dcompiler_47=n;winemenubuilder.exe=d
+VKD3D_CONFIG=
+WINEDEBUG=err+all,warn+module,fixme-all
+RESKATE_FORCE_WINDOWED=1
+RESKATE_WINDOW_WIDTH=1280
+RESKATE_WINDOW_HEIGHT=720
++-Window.Width
++1280
++-Window.Height
++720
++-Window.AutoSize
++0
++-Window.FullscreenAutoSize
++0
++-RenderDevice.FullscreenModeEnable
++0
++-RenderDevice.WindowedBorderless
++0
+RESKATE_DEBUG_TEST_GLOBAL_OFFLINE=1
+SteamAppId=3354750
+SteamGameId=3354750
+RESKATE_LOG_DIRECTORY=C:\Games\ReSkate\logs
+MESA_SHADER_CACHE_SHOW_STATS=true
