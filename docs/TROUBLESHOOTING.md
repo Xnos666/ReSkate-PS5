@@ -2,7 +2,7 @@
 
 ## Shader count moves slowly or stops
 
-First-launch compilation can be expensive, but waiting longer is not a proven fix for this build. The untimed test eventually failed. Record whether the number is changing and the elapsed time; distinguish a stationary loading animation from an application exit or console reboot.
+First-launch compilation can be expensive, but waiting longer is not a proven fix for this build. Earlier untimed tests failed; newer development builds reached gameplay but still loaded slowly. Record whether the number is changing and the elapsed time; distinguish a stationary loading animation from an application exit or console reboot.
 
 Preserve these PS5-generated caches across runs:
 
@@ -17,7 +17,7 @@ The RADV build already uses a release configuration. Disabling compiler optimiza
 
 ## Game closes after an exact interval
 
-Check `/data/reskate/launch.txt` and any one-shot `/data/homebrew/PPSA99223/wine-run.txt`. `WOWPS5_DEADLINE=0` is the normal no-timeout setting. A positive deadline was used in earlier diagnostics and can intentionally terminate a test. Do not confuse that with the untimed failure, which remains unresolved.
+Check `/data/reskate/launch.txt` and any one-shot `/data/homebrew/PPSA99223/wine-run.txt`. `WOWPS5_DEADLINE=0` is the normal no-timeout setting. A positive deadline was used in earlier diagnostics and can intentionally terminate a test. A timeout exit and a spontaneous application failure need separate diagnosis.
 
 ## Immediate exit
 
@@ -39,6 +39,18 @@ Read and redact logs before sharing: remove LAN addresses, usernames, local path
 
 ## CE-108255-1 after shaders
 
-The latest user test passed shader compilation and then showed CE-108255-1. The captured game log reached `Local player joined`, `Level active`, and `Level content loaded` before ending. No controllable skating session was confirmed. The runtime log does not establish a root cause.
+An earlier user test passed shader compilation and then showed CE-108255-1. The captured game log reached `Local player joined`, `Level active`, and `Level content loaded` before ending. That run did not confirm controllable skating. Later development runs did, but the older error is not evidence that every crash has been fixed. The runtime log did not establish one root cause.
 
 [Sony describes CE-108255-1](https://www.playstation.com/en-ie/support/error-codes/ps5/ce-108255-1/) as a game/application error. This general code cannot by itself distinguish a game bug, Wine problem, native driver fault, or another failure. Preserve the caches and record the last visible screen and short sanitized log excerpts for diagnosis.
+
+## Gameplay is smoother but still around 30 FPS
+
+The October 11 development tests measured approximately 60 client updates per second and 30 presented frames per second. These are different counters. The Unlimited frame target and disabling the performance HUD did not raise rendering throughput. A simple solid-color probe reached 60 Hz, but it does not predict full-game performance. No verified 60 FPS setting is available.
+
+## Small image with black around it
+
+In the development setup, lowering the game surface to 1920 × 1080 caused this regression. Restoring a 3840 × 2160 game surface filled the display. Changing the console output mode does not necessarily change the internal Wine/Vulkan surface. These development findings are not a qualified configuration update for the older downloadable bundle.
+
+## Loading remains slow after shaders
+
+Repeated development logs spent about 205 seconds at “Starting level load” before the city became active. Do not label all loading time as shader compilation. Disabling the tested readiness setting did not produce a verified faster playable launch and was reverted. Keep shader caches and report the actual logged loading stage.

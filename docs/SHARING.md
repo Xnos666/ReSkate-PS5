@@ -1,21 +1,23 @@
 # Ready-to-edit sharing drafts
 
-These drafts describe the actual experimental status. No social posts are sent automatically.
+Updated October 11, 2026. These drafts distinguish development progress from the older download. No social posts are sent automatically.
 
 ## X
 
-ReSkate PS5 experimental launcher is public: Wine + vkd3d-proton + RADV, with the official RE artwork. It reaches loading/shader compilation; gameplay is NOT verified and crashes remain. Bring your own game. Testers welcome:
+ReSkate PS5 update: skating + Bluetooth DualSense work in a development build. Smoother now, but still ~30 FPS. The download is an older experimental build; these fixes aren't packaged yet. Progress + limitations:
 https://wwwshelton19-spec.github.io/ReSkate-PS5/
 
 ## Reddit
 
-**Title:** ReSkate PS5 experimental launcher — loading/shader compilation reached, gameplay still unverified
+**Title:** ReSkate PS5 development update — controllable skating and DualSense working, around 30 FPS
 
-I've published the ReSkate PS5 integration, a detailed setup guide, verified-input installer, and source/build notes. It builds on WoWPS5's Wine + vkd3d-proton + RADV approach and uses its own home-screen title with the official blue RE icon.
+The latest development build reaches the city with controllable skating, Bluetooth DualSense input, and a display-filling image on one jailbroken PS5. The app uses the official ReSkate artwork and runs the Windows game through Wine, vkd3d-proton, and RADV.
 
-Current status: the game reaches loading and compiles shaders, and the D3D12/queue/controller-detection probes pass. It still stalls or exits, and the latest test passed shaders and then crashed with CE-108255-1. There is no verified controllable gameplay, FPS claim, or multiplayer support yet.
+Recurring local-profile refresh stalls fell from about 95 ms to 2.7 ms, and skating feels smoother. Actual rendering is still around 30 FPS. The approximately 60-per-second simulation update counter is not 60 FPS. Unlimited framerate did not improve it. City loading still takes about 210 seconds in these tests, and stability across maps and long sessions is unresolved.
 
-The release includes no game data or personal caches. You need your own exact compatible PC game/runtime/cache and a jailbroken PS5. A fresh install on a second console is still needed. Feedback on shader compilation and native driver diagnostics would be especially useful.
+**The public v0.1.0-experimental download is still the older loading/crash preview.** The latest changes aren't packaged yet: the current memory guards rely on console-specific ranges and need a portable implementation. This is a progress report, not a new gameplay-ready release.
+
+No game files or personal caches are distributed. Fresh-console installation, broad compatibility, and multiplayer remain unverified. Rendering/synchronization diagnostics and work toward portable memory handling would be especially useful.
 
 Website: https://wwwshelton19-spec.github.io/ReSkate-PS5/
 

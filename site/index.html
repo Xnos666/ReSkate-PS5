@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>ReSkate PS5 — An experiment in motion</title>
-  <meta name="description" content="An experimental ReSkate launcher for jailbroken PS5. Official artwork, source, setup guide, and honest test results. Loading reached; gameplay unverified.">
+  <meta name="description" content="An experimental ReSkate launcher for jailbroken PS5. Official artwork, source, setup guide, and honest test results. Development gameplay confirmed around 30 FPS; the download remains an older experimental build.">
   <meta property="og:title" content="ReSkate PS5 — An experiment in motion">
-  <meta property="og:description" content="Wine + vkd3d-proton + RADV. Loading and shader compilation reached. Gameplay is unverified; crashes remain. Explore the experimental launcher.">
+  <meta property="og:description" content="Controllable skating and DualSense work in development at around 30 FPS. The older download does not include these fixes. Follow the ReSkate PS5 experiment.">
   <meta property="og:type" content="website"><meta property="og:url" content="https://wwwshelton19-spec.github.io/ReSkate-PS5/">
   <meta property="og:image" content="https://wwwshelton19-spec.github.io/ReSkate-PS5/assets/splash.jpg">
   <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#1763ef">
@@ -24,11 +24,11 @@
   <img class="hero-art" src="assets/background.jpg" alt="Official ReSkate artwork showing skaters in an urban plaza" fetchpriority="high">
   <div class="hero-shade"></div>
   <div class="hero-content wrap">
-    <p class="eyebrow"><span class="dot"></span> COMMUNITY EXPERIMENT / 001</p>
+    <p class="eyebrow"><span class="dot"></span> DEVELOPMENT UPDATE / OCT 11, 2026</p>
     <h1 id="hero-title">A new place<br>to <em>ReSkate.</em></h1>
     <p class="hero-sub">Bringing the ReSkate Windows runtime to a jailbroken PS5. One homebrew app. An open experiment. A lot left to discover.</p>
     <div class="actions"><a class="button primary" href="#start">Explore the launcher <span aria-hidden="true">↗</span></a><a class="button ghost" href="https://github.com/wwwshelton19-spec/ReSkate-PS5">View source <span aria-hidden="true">↗</span></a></div>
-    <div class="hero-status"><span class="status-label">DEVELOPMENT PREVIEW</span><p>Past shaders. Post-load crash under investigation.<br><strong>Gameplay unverified. Hangs and crashes remain.</strong></p></div>
+    <div class="hero-status"><span class="status-label">DEVELOPMENT PREVIEW</span><p>Skating + DualSense confirmed in development.<br><strong>About 30 FPS. Download remains the older preview.</strong></p></div>
   </div>
   <div class="hero-footer wrap"><span>PS5 HOMEBREW · BRING YOUR OWN GAME</span><span>Official upstream artwork · not a PS5 gameplay capture</span></div>
 </section>
@@ -36,12 +36,12 @@
 
 <section id="status" class="section wrap reality">
   <div class="section-label">01 / THE REALITY</div>
-  <div class="section-heading"><h2>Progress you can see.<br><span>Limits you should know.</span></h2><p>This is a technical preview for testers, not a finished port. Here’s exactly where the experiment stands.</p></div>
+  <div class="section-heading"><h2>Progress you can see.<br><span>Limits you should know.</span></h2><p>The development build now reaches controllable skating. These results come from one console; the public download is still the earlier loading/crash preview.</p></div>
   <div class="status-board">
     <div class="milestone passed"><span class="state">OBSERVED</span><h3>A proper home-screen app.</h3><p>Its own ReSkate name, title ID, and official blue RE icon. The artwork has been confirmed on the console.</p><span class="milestone-number">01</span></div>
-    <div class="milestone passed"><span class="state">OBSERVED</span><h3>The graphics path works.</h3><p>Direct3D 12 device, present, fences, frame-latency, and queue synchronization probes pass. Controller 0 is detected.</p><span class="milestone-number">02</span></div>
-    <div class="milestone partial"><span class="state">PARTIAL</span><h3>Past shaders. A new failure to investigate.</h3><p>The user reported passing shaders, then CE-108255-1. Logs reach level activation and local-player join; the crash remains unresolved.</p><span class="milestone-number">03</span></div>
-    <div class="milestone pending"><span class="state">UNVERIFIED</span><h3>The part that matters: skating.</h3><p>No controllable skater or stable gameplay demonstrated. No verified FPS, audio, save/load, or multiplayer claims.</p><span class="milestone-number">04</span></div>
+    <div class="milestone passed"><span class="state">OBSERVED</span><h3>The graphics path works.</h3><p>Direct3D 12 probes pass. A simple synchronized color test reached 59.94 Hz. That is a graphics-path test, not a gameplay benchmark.</p><span class="milestone-number">02</span></div>
+    <div class="milestone passed"><span class="state">DEVELOPMENT BUILD</span><h3>Skating. With a DualSense.</h3><p>Controllable city gameplay, Bluetooth input, and a display-filling image confirmed. Recurring profile-refresh stalls fell from about 95 ms to 2.7 ms.</p><span class="milestone-number">03</span></div>
+    <div class="milestone partial"><span class="state">STILL IN PROGRESS</span><h3>About 30 FPS. Not 60 yet.</h3><p>Rendering remains around 30 FPS despite approximately 60 simulation updates per second. Slow loading and crashes remain unresolved; sustained stability and multiplayer are unverified.</p><span class="milestone-number">04</span></div>
   </div>
   <a class="text-link" href="https://github.com/wwwshelton19-spec/ReSkate-PS5/blob/main/docs/STATUS.md">Read the complete test ledger <span aria-hidden="true">↗</span></a>
 </section>
@@ -49,7 +49,7 @@
 <section id="inside" class="inside section">
  <div class="wrap">
   <div class="section-label">02 / INSIDE THE PORT</div>
-  <div class="section-heading"><h2>A Windows runtime.<br>A PS5 homebrew title.</h2><p>Built on the work of ReSkate, WoWPS5, Wine, vkd3d-proton, and the PS5 Vulkan/Mesa community.</p></div>
+  <div class="section-heading"><h2>A Windows runtime.<br>A PS5 homebrew title.</h2><p>ReSkate, Wine, vkd3d-proton, and RADV bring the Windows runtime into one PS5 homebrew app. Full upstream attribution is in the technical credits.</p></div>
   <div class="architecture">
    <div class="stack-diagram" aria-label="Runtime layers">
     <div class="stack-layer"><span>01</span><div><h3>ReSkate + skate.</h3><p>Your compatible Windows files</p></div><small>GAME</small></div>
@@ -57,7 +57,7 @@
     <div class="stack-layer"><span>03</span><div><h3>vkd3d-proton</h3><p>Direct3D 12 → Vulkan</p></div><small>TRANSLATION</small></div>
     <div class="stack-layer"><span>04</span><div><h3>RADV on PS5</h3><p>Mesa’s driver, adapted for the console</p></div><small>GRAPHICS</small></div>
    </div>
-   <div class="inside-notes"><h3>One app.<br>Its own space.</h3><p>The Windows runtime runs inside the native title. There’s no Linux desktop to boot into.</p><dl><dt>TITLE ID</dt><dd>PPSA99223</dd><dt>RUNTIME DIRECTORY</dt><dd>/data/reskate</dd><dt>WINDOW REQUEST</dt><dd>1280 × 720</dd><dt>NORMAL LAUNCH TIMER</dt><dd>None</dd></dl><p class="fine">720p is a requested window size, not a measured performance result. The original WoW installation uses a separate directory and title ID.</p></div>
+   <div class="inside-notes"><h3>One app.<br>Its own space.</h3><p>The Windows runtime runs inside the native title. There’s no Linux desktop to boot into.</p><dl><dt>TITLE ID</dt><dd>PPSA99223</dd><dt>RUNTIME DIRECTORY</dt><dd>/data/reskate</dd><dt>DEVELOPMENT GAME SURFACE</dt><dd>3840 × 2160</dd><dt>NORMAL LAUNCH TIMER</dt><dd>None</dd></dl><p class="fine">This is the development surface size, not proof of native 4K rendering. The older download still requests a 720p window.</p></div>
   </div>
  </div>
 </section>
@@ -68,30 +68,31 @@
  <div class="requirements"><span>Jailbroken PS5 + FTP</span><span>Python 3.11+</span><span>Steam build 25414733</span><span>ReSkate 2.0.5</span><span>20+ GiB free</span></div>
  <div class="setup-grid">
   <ol class="steps">
-   <li><span>01</span><div><h3>Collect the matching inputs.</h3><p>Get the experimental bundle, pinned WoWPS5 base runtime, your compatible game and PC content cache, and your local Windows SDK compiler DLL.</p></div></li>
+   <li><span>01</span><div><h3>Collect the matching inputs.</h3><p>Get the experimental bundle, pinned base Wine runtime, your compatible game and PC content cache, and your local Windows SDK compiler DLL.</p></div></li>
    <li><span>02</span><div><h3>Check everything locally.</h3><p>Run the installer without <code>--install</code>. It reads and hashes the selected files. The dry run makes no console connection.</p></div></li>
    <li><span>03</span><div><h3>Copy, register, launch.</h3><p>Close the game, return to the PS5 home screen, and run the copy command. Register the title with your homebrew manager. Expect experimental results.</p></div></li>
   </ol>
-  <aside class="download-panel"><img src="assets/icon.png" alt="Official blue RE app icon" width="72" height="72"><span class="eyebrow">v0.1.0 / EXPERIMENTAL</span><h3>The launcher<br>and the details.</h3><p>Title + patched Wine modules + configuration + notices. Game files and personal caches stay with you.</p><a class="button primary" href="https://github.com/wwwshelton19-spec/ReSkate-PS5/releases/tag/v0.1.0-experimental">View experimental release ↗</a><a class="button secondary" href="https://github.com/wwwshelton19-spec/ReSkate-PS5/blob/main/docs/INSTALL.md">Follow the full install guide ↗</a><small>Read the requirements before downloading.<br>No guarantee of gameplay or universal compatibility.</small></aside>
+  <aside class="download-panel"><img src="assets/icon.png" alt="Official blue RE app icon" width="72" height="72"><span class="eyebrow">v0.1.0 / EXPERIMENTAL</span><h3>The launcher<br>and the details.</h3><p>The older loading/crash preview. Newer gameplay, input, and memory fixes are not included. Game files and personal caches stay with you.</p><a class="button primary" href="https://github.com/wwwshelton19-spec/ReSkate-PS5/releases/tag/v0.1.0-experimental">View experimental release ↗</a><a class="button secondary" href="https://github.com/wwwshelton19-spec/ReSkate-PS5/blob/main/docs/INSTALL.md">Follow the full install guide ↗</a><small>Read the requirements before downloading.<br>No guarantee of gameplay or universal compatibility.</small></aside>
  </div>
  <div class="verification-strip"><span class="verification-icon" aria-hidden="true">✓</span><div><h3>Copy with evidence.</h3><p>Explicit file manifests. SHA-256 checks. Upload readback before promotion. Completed files are verified again on a retry.</p></div><a href="https://github.com/wwwshelton19-spec/ReSkate-PS5/blob/main/install.py">Inspect the installer ↗</a></div>
 </section>
 
 <section class="shader section">
- <div class="wrap shader-grid"><div><div class="section-label">04 / THE SHADER QUESTION</div><h2>Can it compile<br>faster?</h2><p class="large">Keep the work it has already done.</p><p>Two caches were observed growing: vkd3d-proton’s translated shader cache and RADV’s native cache. Preserve both between runs. Neither cache growth nor a moving counter proves that loading will finish.</p><p><strong>There is no verified fast-compilation fix for this build.</strong> The normal launch has no forced deadline; the later test passed shaders and then failed with CE-108255-1.</p><a class="text-link" href="https://github.com/wwwshelton19-spec/ReSkate-PS5/blob/main/docs/TROUBLESHOOTING.md">Understand caches and failures ↗</a></div><div class="cache-notes"><div><span>01 / TRANSLATED SHADERS</span><h3>vkd3d-proton.cache</h3><p>Beside the game in the Wine prefix.</p></div><div><span>02 / NATIVE SHADERS</span><h3>radv-shader-cache/</h3><p>Inside the PPSA99223 title directory.</p></div><div class="cache-warning">A different cache: the ReSkate <strong>PC content cache</strong> is required game-derived content. It is supplied by you and is not part of this download.</div></div></div>
+ <div class="wrap shader-grid"><div><div class="section-label">04 / THE SHADER QUESTION</div><h2>Can it compile<br>faster?</h2><p class="large">Keep the work it has already done.</p><p>Two caches were observed growing: vkd3d-proton’s translated shader cache and RADV’s native cache. Preserve both between runs. Neither cache growth nor a moving counter proves that loading will finish.</p><p><strong>There is no verified fast-compilation fix for this build.</strong> Development city loads still took about 210 seconds, mostly in the logged “Starting level load” stage. That delay is not established to be shader compilation alone.</p><a class="text-link" href="https://github.com/wwwshelton19-spec/ReSkate-PS5/blob/main/docs/TROUBLESHOOTING.md">Understand caches and failures ↗</a></div><div class="cache-notes"><div><span>01 / TRANSLATED SHADERS</span><h3>vkd3d-proton.cache</h3><p>Beside the game in the Wine prefix.</p></div><div><span>02 / NATIVE SHADERS</span><h3>radv-shader-cache/</h3><p>Inside the PPSA99223 title directory.</p></div><div class="cache-warning">A different cache: the ReSkate <strong>PC content cache</strong> is required game-derived content. It is supplied by you and is not part of this download.</div></div></div>
 </section>
 
 <section class="section wrap faq">
  <div class="section-label">05 / BEFORE YOU ASK</div><h2>The useful answers.</h2>
- <details open><summary>Can I actually play ReSkate on PS5 with this?</summary><p>Stable gameplay has not been demonstrated. The project reaches loading and shader compilation, but hangs and crashes remain. This release is for investigation and testing.</p></details>
+ <details open><summary>Can I actually play ReSkate on PS5 with this?</summary><p>Controllable skating is confirmed in the newer development build, at around 30 FPS. The downloadable v0.1.0-experimental bundle is still the older loading/crash preview and does not contain those fixes. Long-session stability remains unverified.</p></details>
  <details><summary>Is this official? Does it include the game?</summary><p>No. This is an unofficial community integration built on upstream projects. It includes no skate. game data. You must supply your own compatible files. The artwork comes from the official ReSkate repository, with attribution.</p></details>
+ <details><summary>Does this use Wine or Proton?</summary><p>Wine runs the Windows application. vkd3d-proton translates DirectX 12 graphics to Vulkan, and RADV handles the PS5 GPU. This is not the full Proton package.</p></details>
  <details><summary>Will it work with my firmware or the latest game update?</summary><p>Universal compatibility is unknown. The tested game build is 25414733 with ReSkate 2.0.5; newer files are not assumed compatible. The installer rejects hashes that differ from the documented set.</p></details>
  <details><summary>Does it support online play or multiplayer?</summary><p>Those features have not been tested on PS5. The integration uses offline initialization. ReSkate’s PC feature list should not be read as the PS5 port’s feature list.</p></details>
  <details><summary>Can I build it myself?</summary><p>Modified sources, dependency revisions, and build notes are provided. The tested binary used a prepared Linux toolchain; a complete fresh-machine rebuild remains unverified. Start with the repository’s build documentation.</p></details>
- <details><summary>How can I help?</summary><p>A confirmed fresh install, a minimal shader reproducer, or native driver diagnostics would help most. Report exact versions and observed behavior, and redact personal details. Never upload game files, your prefix, or console databases.</p></details>
+ <details><summary>How can I help?</summary><p>A confirmed fresh install, rendering/synchronization profiling, or portable memory handling would help most. Report exact versions and observed behavior, and redact personal details. Never upload game files, your prefix, or console databases.</p></details>
 </section>
 
 <section class="share-section"><div class="wrap"><div class="section-label">OPEN WORK. HONEST PROGRESS.</div><h2>Follow the experiment.<br>Help make the next step.</h2><div class="actions"><a class="button light" href="https://github.com/wwwshelton19-spec/ReSkate-PS5/issues/new/choose">Report a test ↗</a><button class="button ghost" id="copy-link" type="button">Copy project link <span aria-hidden="true">↗</span></button></div><p id="copy-status" role="status" aria-live="polite"></p></div></section>
 </main>
-<footer class="wrap footer"><div class="brand"><img src="assets/icon.png" alt="" width="36" height="36"><span>ReSkate <b>PS5</b></span></div><p>Made possible by ReSkate, WoWPS5, Wine, vkd3d-proton, Mesa, and the PS5 homebrew community. <a href="https://github.com/wwwshelton19-spec/ReSkate-PS5/blob/main/docs/CREDITS.md">Credits & licenses ↗</a></p><p class="fine">Unofficial project. No affiliation or endorsement by Dingo-Shenanigans, EA, Full Circle, or Sony. All names and artwork belong to their respective owners.</p></footer>
+<footer class="wrap footer"><div class="brand"><img src="assets/icon.png" alt="" width="36" height="36"><span>ReSkate <b>PS5</b></span></div><p>An unofficial ReSkate PS5 project, built with open-source runtime and graphics components. <a href="https://github.com/wwwshelton19-spec/ReSkate-PS5/blob/main/docs/CREDITS.md">Credits & licenses ↗</a></p><p class="fine">Unofficial project. No affiliation or endorsement by Dingo-Shenanigans, EA, Full Circle, or Sony. All names and artwork belong to their respective owners.</p></footer>
 </body></html>

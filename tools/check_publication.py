@@ -19,6 +19,6 @@ class Links(HTMLParser):
                     raise ValueError('Missing or unsafe site asset: ' + value)
 Links().feed((root / 'site/index.html').read_text(encoding='utf-8'))
 text = (root / 'site/index.html').read_text(encoding='utf-8').lower()
-if 'gameplay unverified' not in text or 'crashes remain' not in text:
+if not all(phrase in text for phrase in ('around 30 fps', 'older loading/crash preview', 'not included', 'crashes remain')):
     raise ValueError('Site must disclose the current experimental status')
 print('Manifest structure, local site links, and status disclosure: PASS')

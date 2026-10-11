@@ -3,7 +3,7 @@ description: Report an experimental launch result without private logs or game f
 body:
   - type: markdown
     attributes:
-      value: "Gameplay is unverified. Do not attach game files, prefixes, databases, or unredacted logs."
+      value: "Identify the release or development build tested; newer gameplay fixes are not in v0.1.0-experimental. Do not attach game files, prefixes, databases, or unredacted logs."
   - type: input
     id: version
     attributes:
